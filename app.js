@@ -1,5 +1,5 @@
 const apiUrl = "https://jsonplaceholder.typicode.com/posts";
-fetch(apiUrl, "GET")
+fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("postContainer");
